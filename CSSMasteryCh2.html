@@ -1,49 +1,10 @@
 <html>
 <head>
-<style>
-    a:visited {
-        color: red;
-    }
-    
-    a:active {
-        
-    }
-    
-    a:hover {
-        background-color: aqua;
-    }
-    /* 1 pseudo */
-    a:visited:hover {
-        background-color: forestgreen;
-    }
-
-    /* 2 child selector */
-    ul {
-        list-style-type: none;
-        padding-left: 40px;
-    }
-    
-    #nav > li {
-        background: url(folder_s.png) no-repeat left top;
-        padding-left: 40px;
-    }
-    
-    /* 3 adjacent sibling selector */
-    #article h2 + p {
-        font-size: 1.8em;
-        font-weight: bold;
-        color: #777;
-    }
-    
-    /* 4 attribute selector */
-    acronym[title] {
-        border-bottom: 1px dashed red;
-    }
-    
-    
-    acronym[title]:hover {
-        cursor: zoom-in;
-    }
+<!-- 
+<link rel="stylesheet" type="text/css" href="Ch2.css">
+-->
+<style type="text/css">
+    @import url("Ch2.css");
 </style>
 </head>
 <body>
@@ -53,7 +14,7 @@
             <li><a href="https://genius.com/Eminem-need-me-lyrics" target="_blank">need me</a></li>
             <li><a href="https://genius.com/Eminem-river-lyrics" target="_blank">rivers</a></li>
             <ul>
-                <li>white boy</li>
+                <li><a href="#target">white boy</a></li>
                 <li>rock star</li>
                 <li>cop car</li>
                 <li>the side</li>
@@ -75,11 +36,15 @@
     <div id="article2">
         <h2>Single Line Comments in CSS</h2>
         <p>ck comment" syntax as the C-like languages - you start a comment with /* , and end it with */ . Howev</p>
-        <p>someone reading the CSS file know that that particular line of CSS was intended to allow for using ems to set font size later in the CSS in a more intuitive base ...</p>
+        <p>someone reading the CSS file know that that particular line of CSS was intended to allow for using ems to set font size later in the CSS in a more intuitive base someone reading the CSS file know that that particular line of CSS was intended to allow for using ems to set font size later in the CSS in a more intuitive base someone reading the CSS file know that that particular line of CSS was intended to allow for using ems to set font size later in the CSS in a more intuitive base someone reading the CSS file know that that particular line of CSS was intended to allow for using ems to set font size later in the CSS in a more intuitive base someone reading the CSS file know that that particular line of CSS was intended to allow for using ems to set font size later in the CSS in a more intuitive base someone reading the CSS file know that that particular line of CSS was intended to allow for using ems to set font size later in the CSS in a more intuitive base someone reading the CSS file know that that particular line of CSS was intended to allow for using ems to set font size later in the CSS in a more intuitive base someone reading the CSS file know that that particular line of CSS was intended to allow for using ems to set font size later in the CSS in a more intuitive base someone reading the CSS file know that that particular line of CSS was intended to allow for using ems to set font size later in the CSS in a more intuitive base someone reading the CSS file know that that particular line of CSS was intended to allow for using ems to set font size later in the CSS in a more intuitive base someone reading the CSS file know that that particular line of CSS was intended to allow for using ems to set font size later in the CSS in a more intuitive base someone reading the CSS file know that that particular line of CSS was intended to allow for using ems to set font size later in the CSS in a more intuitive base someone reading the CSS file know that that particular line of CSS was intended to allow for using ems to set font size later in the CSS in a more intuitive base ...</p>
     </div>
     
     <!-- 4 attribute selector -->
     <hr>
     <p>The term <acronym title="self">SCUBA</acronym> is a acronym.</p>
+    
+    <!-- -->
+    <bdo id="target" dir="rtl">Leonardo Da Vinci</bdo>
+    <p>someone reading the CSS file know that that particular line of CSS was intended to allow for using ems to set font size later in the CSS in a more intuitive base someone reading the CSS file know that that particular line of CSS was intended to allow for using ems to set font size later in the CSS in a more intuitive base someone reading the CSS file know that that particular line of CSS was intended to allow for using ems to set font size later in the CSS in a more intuitive base someone reading the CSS file know that that particular line of CSS was intended to allow for using ems to set font size later in the CSS in a more intuitive base someone reading the CSS file know that that particular line of CSS was intended to allow for using ems to set font size later in the CSS in a more intuitive base someone reading the CSS file know that that particular line of CSS was intended to allow for using ems to set font size later in the CSS in a more intuitive base someone reading the CSS file know that that particular line of CSS was intended to allow for using ems to set font size later in the CSS in a more intuitive base someone reading the CSS file know that that particular line of CSS was intended to allow for using ems to set font size later in the CSS in a more intuitive base someone reading the CSS file know that that particular line of CSS was intended to allow for using ems to set font size later in the CSS in a more intuitive base someone reading the CSS file know that that particular line of CSS was intended to allow for using ems to set font size later in the CSS in a more intuitive base someone reading the CSS file know that that particular line of CSS was intended to allow for using ems to set font size later in the CSS in a more intuitive base someone reading the CSS file know that that particular line of CSS was intended to allow for using ems to set font size later in the CSS in a more intuitive base someone reading the CSS file know that that particular line of CSS was intended to allow for using ems to set font size later in the CSS in a more intuitive base ...</p>
 </body>
 </html>

@@ -1,0 +1,56 @@
+<style>
+/* @group general styles
+--------------------------------------------------------*/
+
+/* @group helper styles
+--------------------------------------------------------*/
+
+/* @group page structure
+--------------------------------------------------------*/
+
+/* @group page components
+--------------------------------------------------------*/
+    a:visited {
+        color: red;
+    }
+    
+    a:active {
+        
+    }
+    
+    a:hover {
+        background-color: aqua;
+    }
+    /* 1 pseudo */
+    a:visited:hover {
+        background-color: forestgreen;
+    }
+
+    /* 2 child selector */
+    ul {
+        list-style-type: none;
+        padding-left: 40px;
+    }
+    
+    #nav > li {
+        background: url(folder_s.png) no-repeat left top;
+        padding-left: 40px;
+    }
+    
+    /* 3 adjacent sibling selector */
+    #article h2 + p {
+        font-size: 1.8em;
+        font-weight: bold;
+        color: #777;
+    }
+    
+    /* 4 attribute selector */
+    acronym[title] {
+        border-bottom: 1px dashed red;
+    }
+    
+    
+    acronym[title]:hover {
+        cursor: zoom-in;
+    }
+</style>

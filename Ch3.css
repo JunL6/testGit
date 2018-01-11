@@ -1,0 +1,96 @@
+<style>
+/* @group general styles
+--------------------------------------------------------*/
+
+/* @group helper styles
+--------------------------------------------------------*/
+
+/* @group page structure
+--------------------------------------------------------*/
+
+/* @group page components
+--------------------------------------------------------*/
+
+/* 1. the horizontal margin or the height or width of an inline box can't change the heigtht of the line*/
+#str {
+/*    color: blue;*/
+}
+
+.sss {
+    color: red;
+    margin: 50px;
+    font-size: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+#ppp {
+    padding: 90px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* 3. abosolute position*/
+#branding {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border: 1px black solid;
+}
+
+#branding .tel {
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+}
+
+/* 4. float */
+#floatImg {
+    float: left;
+    height: 20%;
+}
+
+#secondPara {
+    clear: left;
+}
+
+/* 4.2 float 2 */
+.news {
+    border: 10px solid green;
+    background-color: grey;
+}
+
+.news img {
+    float: left;
+    height: 20%;
+}
+/*@? ??????????????????????????????why <p> doesn't float?????*/
+.news p {
+    float: right;
+}
+
+/*
+.news hr {
+    clear: both;
+    
+}
+*/
+/* @group override
+________________________________________________________*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
