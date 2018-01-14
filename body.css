@@ -1,0 +1,13 @@
+<style>
+body {
+    background: black;
+}
+
+body {
+    background-image: url("img/bg.jpg");
+    background-repeat: repeat-x;
+    background-color: #d3ff99;
+    background-position: 20% 0;
+}
+
+</style>

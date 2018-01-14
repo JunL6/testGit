@@ -1,0 +1,104 @@
+<style>
+/* @group general styles
+--------------------------------------------------------*/
+
+/* @group helper styles
+--------------------------------------------------------*/
+
+/* @group page structure
+--------------------------------------------------------*/
+
+/* @group page components
+--------------------------------------------------------*/
+
+/*@?  ?????? why the body style doesn't apply when there is only one body style(has to have the first one)?*/
+    
+body {
+    background-image: url("http://thepatternlibrary.com/img/bc.png");
+    background-repeat: repeat-x;
+}
+
+body {
+    background-image: url(img/gradient.jpg);
+    background-color: #333;
+    background-repeat: repeat-x;
+    color: red;
+}
+
+p {
+    color: aqua;
+}
+
+
+
+
+
+
+/* try box model outline, see whehter outline is outside of border or margin  */
+/*
+#box {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    text-align: center;
+    line-height: 100px;
+    border: solid 4px black;
+    padding: 20px;
+    outline: solid 4px green;
+    margin: 20px;
+}
+*/
+
+/*  try box sizing  */
+/*@? why there is a gap between blocks when using display: inline-box????*/
+#group {
+    height: 200px;
+    width: 600px;
+    border: solid 2px black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    height: 200px;
+    width: 33.333%;
+/*    width: 200px;*/
+/*    display: inline-block;*/
+    float: left;
+    padding: 0px;
+    margin: 0px;
+/*    outline: 1px solid red;*/
+    background-color: aqua;
+    
+}
+
+
+/* @try h1 background-image*/
+h1 {
+    padding-left: 30px;
+    background-image: url("img/bullet.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+
+/* @group override
+________________________________________________________*/
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
