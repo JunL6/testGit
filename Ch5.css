@@ -1,0 +1,95 @@
+<style>
+/* @group general styles
+--------------------------------------------------------*/
+
+/* @group helper styles
+--------------------------------------------------------*/
+
+/* @group page structure
+--------------------------------------------------------*/
+
+/* @group page components
+--------------------------------------------------------*/
+
+
+
+/* @group override
+________________________________________________________*/
+
+/* peseudo class */
+/*@?  the first style doesn't work? */
+table, th, td {
+    border: 1px solid black;
+}
+
+#tableHover, #tableHover th, #tableHover td {
+    border: 1px solid black;
+}
+
+#tableHover:hover {
+    background-color: aqua;
+}
+
+#tableHover:active {
+    background-color: yellow;
+}
+
+/* LVHFA */
+#LVHFA:link {
+    text-decoration: none;
+    color: green;
+}
+
+
+/*@? this is not working? */
+#LVHFA:visited {
+    text-decoration: underline;
+}
+
+#LVHFA:hover {
+    background-color: aqua;
+}
+
+#LVHFA:focus {
+    text-decoration: line-through;
+
+}
+
+#LVHFA:active {
+    background-color: green;
+}
+
+/* change underline */
+#un:link, #un:visited {
+    text-decoration: none;
+    border-bottom: 1px dotted black;
+}
+
+#un:hover, #un:focus, #un:active {
+    border-bottom-style: groove;
+}
+
+/*  image botton line  */
+/*@? not at the bottom*/
+#bl:link, #bl:active {
+    color: #666;
+    text-decoration: none;
+    background: url("img/bullet.png") repeat-x;
+    background-position: bottom;
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
